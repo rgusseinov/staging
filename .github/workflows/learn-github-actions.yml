@@ -1,8 +1,8 @@
-name: learn-github-actions
+name: Staging GEMS CI/CD
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
 jobs:
-  check-bats-version:
+  init:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
